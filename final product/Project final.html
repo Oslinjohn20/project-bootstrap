@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Stuff that isn't visible -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!--My css page-->
+        <link rel="stylesheet" href="content.css">
+        <title>The Business</title>
+    </head>
+    <body>
+       <header>
+          <nav id="navigationBar">
+             <ul>
+                <li>
+                   <a href="Home.html" class="link">Home</a>                   
+                </li>
+                <li>
+                   <a href="About us.html" class="link">About Us</a>
+                </li>
+                <li>
+                   <a href="Contact us.html">Contact us</a>
+                </li>
+                <li>
+                   <a href="New employee.html" class="link">New Employee</a>
+                </li>
+             </ul>
+          </nav>
+       </header>
+       <div id="page-container">
+          <div id="content-wrap">
+             <div class="box flex">
+                 <p>
+                    <h1 align="center">Current Employee's:</h1> 
+                    <h6 align="center">Click on picture for addtional information</h6>                  
+                  </p>
+                  <div class="cardwhole">
+                     <div class="card">
+                        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic1"><img src="https://cdn2.hubspot.net/hubfs/6906197/cosmos.jpg" class="mockcard"></button>
+                        <div class="designation">employee</div>
+                        <p>Contact:</p><br>
+                        <p>Email:</p>
+                     </div>
+                     <div class="card">
+                      <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic2"><img src="https://cdn2.hubspot.net/hubfs/6906197/cosmos.jpg" class="mockcard"></button>
+                        
+                        <div class="designation">employee</div>
+                        <p>Contact:</p><br>
+                        <p>Email:</p>
+                     </div>
+                     <div class="card">
+                        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic3"><img src="https://cdn2.hubspot.net/hubfs/6906197/cosmos.jpg" class="mockcard"></button>
+                       
+                        <div class="designation">employee</div>
+                        <p>Contact: </p><br>
+                        <p>Email:</p> 
+                     </div>
+                     <div class="card">
+                        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModalpic4"><img src="https://cdn2.hubspot.net/hubfs/6906197/cosmos.jpg" class="mockcard"></button>
+                        
+                        <div class="designation">employee</div>
+                        <p>Contact: </p><br>
+                        <p>Email:</p>
+                    </div>                                                                       
+                 </div>  
+             </div>
+          </div>
+       </div>
+       <!--Below is modal for pic 1-->
+       <div class="modal fade" id="myModalpic1" role="dialog">
+          <div class="modal-dialog modal-lg">
+             <div class="modal-content">
+                <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title" align="center">Employee1</h4>
+                  </div>
+                  <div class="modal-body">
+                     <p>Name:</p>
+                     <p>Last Name: </p>
+                     <p>Gender: </p>
+                     <p>Date of Birth:</p>
+                     <p>Address: </p>
+                     <p>Phone Number:</p>
+                     <p>Next of kin information:</p>
+                     <p>Name:</p>
+                     <p>Last Name: </p>
+                     <p>Relationship:</p>
+                     <p>Phone Number: </p>
+                     <p>Address: </p>
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                   <button type="button" class="btn btn-primary"  data-dismiss="modal">Remove employee</button>
+                </div>
+             </div>
+           </div>
+         </div>
+         <!--Below is modal for pic 2-->
+         <div class="modal fade" id="myModalpic2" role="dialog">
+           <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                 <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" align="center">Employee2</h4>
+                 </div>
+                 <div class="modal-body">
+                    <p>Name:</p>
+                    <p>Last Name: </p>
+                    <p>Gender: </p>
+                    <p>Date of Birth:</p>
+                    <p>Address: </p>
+                    <p>Phone Number:</p>
+                    <p>Next of kin information:</p>
+                    <p>Name:</p>
+                    <p>Last Name: </p>
+                    <p>Relationship:</p>
+                    <p>Phone Number: </p>
+                    <p>Address: </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Remove employee</button>
+               </div>
+            </div>          
+         </div>
+         <!--Below is modal for pic 3-->
+         <div class="modal fade" id="myModalpic3" role="dialog">
+            <div class="modal-dialog modal-lg">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4 class="modal-title" align="center">Employee3</h4>
+                  </div>
+                  <div class="modal-body">
+                     <p>Name:</p>
+                     <p>Last Name: </p>
+                     <p>Gender: </p>
+                     <p>Date of Birth:</p>
+                     <p>Address: </p>
+                     <p>Phone Number:</p>
+                     <p>Next of kin information:</p>
+                     <p>Name:</p>
+                     <p>Last Name: </p>
+                     <p>Relationship:</p>
+                     <p>Phone Number: </p>
+                     <p>Address: </p>
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                   <button type="button" class="btn btn-primary"  data-dismiss="modal">Remove employee</button>
+                </div>
+             </div>          
+          </div>
+        </div>  
+        <!--Below is modal for pic 4-->
+        <div class="modal fade" id="myModalpic4" role="dialog">
+          <div class="modal-dialog modal-lg">
+             <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title" align="center">Employee4</h4>
+                 </div>
+                 <div class="modal-body">
+                    <p>Name:</p>
+                    <p>Last Name: </p>
+                    <p>Gender: </p>
+                    <p>Date of Birth:</p>
+                    <p>Address: </p>
+                    <p>Phone Number:</p>
+                    <p>Next of kin information:</p>
+                    <p>Name:</p>
+                    <p>Last Name: </p>
+                    <p>Relationship:</p>
+                    <p>Phone Number: </p>
+                    <p>Address: </p>
+                </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                   <button type="button" class="btn btn-primary" data-dismiss="modal">Remove employee</button>
+                </div>
+             </div>
+          </div>
+        </div>
+        <footer id="footer">
+           <nav id="navigationfoot">
+              <ul>
+                 <li>
+                    <a>The Businees by:Oslin Johnson  &#x1F468;&#x200D;&#x1F9B1;</a>
+                 </li>
+              </ul>
+           </nav>
+        </footer>       
+    </body>
+</html> 
