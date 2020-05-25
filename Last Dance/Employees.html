@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Employees</title>
+		<!--Third party -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<!--My stylesheet-->
+		<link rel="stylesheet" href="Styling.css" />
+		<!--Page background style-->
+		<style>
+			body {
+				background-image: url("The last dance.jpg");
+				background-size: cover;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--Navbar start-->
+		<div class="navbar">
+			<a class="active" href="frontpage.html"
+				><i class="fa fa-fw fa-home"></i> Home</a
+			>
+			<a href="Products.html"><i class="fa fa-fw fa-search"></i> Products</a>
+			<a href="Contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+			<a href="LoginUser.html"><i class="fa fa-fw fa-user"></i> Login</a>
+			<a href="add.html">Add Employee</a>
+			<a href="about us.htm">About us</a>
+		</div>
+		<!--NavBar end -->
+		<div class="icon-bar">
+			<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+			<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+			<a href="#" class="google"><i class="fa fa-google"></i></a>
+			<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+		</div>
+		<!--Employee container for cards-->
+		<div class="container-emp">
+			<div class="Profile">
+				<img
+					src="Michael_Jordan.jpg"
+					alt="Michael_Jordan"
+					style="width: 100%;"
+				/>
+				<h1>Micheal Jordan</h1>
+				<p class="title">CEO & Founder, Example</p>
+				<p>Chicago University</p>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+
+				<button onclick="document.getElementById('id01').style.display='block'">
+					Remove Employee
+				</button>
+
+				<div id="id01" class="modal">
+					<span
+						onclick="document.getElementById('id01').style.display='none'"
+						class="close"
+						title="Close Modal"
+						>&times;</span
+					>
+					<form class="modal-content" action="/action_page.php">
+						<div class="container">
+							<h1>Delete Account</h1>
+							<p>Are you sure you want to delete your account?</p>
+
+							<div class="clearfix">
+								<button type="button" class="cancelbtn">Cancel</button>
+								<button type="button" class="deletebtn">Delete</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<!--Employee 2-->
+
+			<div class="Profile">
+				<img src="Scottie.jpg" alt="Scottie" style="width: 100%;" />
+				<h1>Scottie Pippen</h1>
+				<p class="title">Vice-President of Marketing</p>
+				<p>Chicago University</p>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<button onclick="document.getElementById('id01').style.display='block'">
+					Remove Employee
+				</button>
+
+				<div id="id01" class="modal">
+					<span
+						onclick="document.getElementById('id01').style.display='none'"
+						class="close"
+						title="Close Modal"
+						>&times;</span
+					>
+					<form class="modal-content" action="/action_page.php">
+						<div class="container">
+							<h1>Delete Account</h1>
+							<p>Are you sure you want to delete your account?</p>
+
+							<div class="clearfix">
+								<button type="button" class="cancelbtn">Cancel</button>
+								<button type="button" class="deletebtn">Delete</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!--Employee 3-->
+
+			<div class="Profile">
+				<img src="dennis.jpg" alt="dennis" style="width: 100%;" />
+				<h1>Deniss Rodman</h1>
+				<p class="title">Head of Security</p>
+				<p>Boston University</p>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<button onclick="document.getElementById('id01').style.display='block'">
+					Remove Employee
+				</button>
+
+				<div id="id01" class="modal">
+					<span
+						onclick="document.getElementById('id01').style.display='none'"
+						class="close"
+						title="Close Modal"
+						>&times;</span
+					>
+					<form class="modal-content" action="/action_page.php">
+						<div class="container">
+							<h1>Delete Account</h1>
+							<p>Are you sure you want to delete your account?</p>
+
+							<div class="clearfix">
+								<button type="button" class="cancelbtn">Cancel</button>
+								<button type="button" class="deletebtn">Delete</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!--Employee 4-->
+
+			<div class="Profile">
+				<img src="steve.jpg" alt="steve" style="width: 100%;" />
+				<h1>Steven Kerr</h1>
+				<p class="title">Public relations</p>
+				<p>Washington State University</p>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<button onclick="document.getElementById('id01').style.display='block'">
+					Remove Employee
+				</button>
+
+				<div id="id01" class="modal">
+					<span
+						onclick="document.getElementById('id01').style.display='none'"
+						class="close"
+						title="Close Modal"
+						>&times;</span
+					>
+					<form class="modal-content" action="/action_page.php">
+						<div class="container">
+							<h1>Delete Account</h1>
+							<p>Are you sure you want to delete your account?</p>
+
+							<div class="clearfix">
+								<button type="button" class="cancelbtn">Cancel</button>
+								<button type="button" class="deletebtn">Delete</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!--End of employee container-->
+		<!--Third party scripts-->
+		<script>
+			// Get the modal
+			var modal = document.getElementById("id01");
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			};
+		</script>
+	</body>
+</html>
